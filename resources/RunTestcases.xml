@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Nopcommerce">
   <test name="Run on Firefox">
+  <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="nopcommerce.account.Account_01_Register"/>
+      <class name="nopcommerce.account.Register_4_Page_Manager_1"/>
     </classes>
   </test> <!-- Test -->
+  
+
+  
+  
+  
+ 
 </suite> <!-- Suite -->
